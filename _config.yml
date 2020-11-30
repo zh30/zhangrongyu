@@ -1,0 +1,60 @@
+title: '张容与'
+repo: zhanghecool/zhangrongyu
+email: zhanghecool@outlook.com
+description: '悠闲自得'
+excerpt_separator: 'true'
+themeColor: '#ffffff'
+baseurl: '' # 一级目录为空。多级的时候填写, e.g. /blog
+url: 'https://zhangrongyu.cn'
+lang: zh
+paginate: 8
+paginate_path: '/page/:num'
+metaAuthor: '张容与'
+blogName: '张容与的博客'
+appTitle: '张容与的博客'
+twitter_username: zhanghecool
+github_username: zhanghecool
+destination: './gphome'
+collections:
+  authors:
+    output: true
+  staff_members:
+    output: true
+    # people: true
+
+# author:
+#   twitter: zhanghecool
+
+# baidu:
+#   appid: 1612867930592980
+
+# ga:
+#   userid: UA-125234893-1
+
+# twitter:
+#   username: zhanghecool
+#   card: summary_large_image
+#   site: "@zhanghecool"
+
+defaults:
+  - scope:
+      path: '_authors'
+      type: 'posts'
+    values:
+      layout: 'author'
+  - scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: 'post'
+      author: 'zhanghe'
+  - scope:
+      path: ''
+    values:
+      layout: 'default'
+
+plugins:
+  - jekyll-remote-theme
+
+markdown: kramdown
+remote_theme: zhanghecool/yoyoyo
