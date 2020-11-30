@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "把我的收藏夹分享给你"
-date: 2020-05-24
-description: "收藏起来，万一用得着，就不用再去花时间去找了。"
-image: https://cdn.jsdelivr.net/gh/zhanghecool/zhangrongyu/assets/images/links.jpg
-author: zhanghe
+title: "你好，世界"
+date: 2020-02-16
+description: "经过十个月的孕育，我终于和大家想见了，辛苦了，妈妈！"
+image: https://cdn.jsdelivr.net/gh/zhanghecool/zhangrongyu/assets/images/hello_world.jpg
+author: zhangrongyu
 tags:
-  - 效率
+  - 开始
 ---
 
 ## 点击进入 [我的收藏夹](https://links.zhanghe.cool/)
